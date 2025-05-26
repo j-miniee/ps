@@ -1,3 +1,4 @@
+# 정답률 63% 
 from itertools import combinations
 
 def solution(nums): # 처음 풀이
