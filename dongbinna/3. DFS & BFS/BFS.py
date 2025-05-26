@@ -1,3 +1,4 @@
+# 재귀 사용
 def dfs(graph, v,  visited):
     visited[v] = True
     print(v, end = ' ')
