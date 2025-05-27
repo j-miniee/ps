@@ -1,11 +1,9 @@
-import sys
-
-n = int(sys.stdin.readline())
+n = int(input())
 stack = []
 output = []
 
 for _ in range(n):
-    command = sys.stdin.readline().strip()
+    command = input()
     if command.startswith('push'):
         stack.append(command.split()[1])
     elif command == 'pop':
