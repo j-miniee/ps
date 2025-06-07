@@ -1,11 +1,14 @@
+import sys
 from collections import deque
+
+input = sys.stdin.readline
 
 def dfs(graph, v, visited):
     visited[v] = True
     # print(v, end=' ')
 
     for i in graph[v]:
-        if graph[v][i] == 1 and visited[i] == False:
+        if not visited[i]:
             dfs(graph, i, visited)
 
 def bfs(graph, start, visited):
@@ -33,7 +36,7 @@ cnt = 0
 visited = [False] * (n+1)
 for i in range(1, n+1):
     if not visited[i]:
-        bfs(graph, i, visited)
+        bfs(graph, i, visited) # dfs(graph, i, visited)
         cnt += 1
 
 print(cnt)
