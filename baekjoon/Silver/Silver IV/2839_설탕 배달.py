@@ -30,6 +30,7 @@ def solution(n): # 더 좋은 풀이
         n5 -= 1
     else:
         cnt = -1
-
+        
     print(cnt)
+
 solution(n)
