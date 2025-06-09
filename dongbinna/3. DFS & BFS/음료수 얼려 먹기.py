@@ -11,10 +11,11 @@ def dfs(x, y):
         nx, ny = x + dx, y + dy
         if 0<= nx <n  and 0<= ny <m:
             dfs(nx, ny)
-            print(f'dfs({nx}, {ny})')
+
     return True
 
 frozen = 0
+# print(f'dfs(0, 0): {dfs(0, 0)}')
 
 for i in range(n):
     for j in range(m):
