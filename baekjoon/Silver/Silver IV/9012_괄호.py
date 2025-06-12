@@ -18,4 +18,4 @@ for _ in range(n):
     if cnt != 0:
         vpn = False
 
-    print('Yes' if vpn else 'No' )
+    print('YES' if vpn else 'NO' )
