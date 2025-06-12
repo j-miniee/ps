@@ -1,4 +1,4 @@
-def solution(k, score): # 매우 좋은 풀이!
+def solution(k, score): # 매우 좋은 풀이! 
     answer = []
     result = []
 
