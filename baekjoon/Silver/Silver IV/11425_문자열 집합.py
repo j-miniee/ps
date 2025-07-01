@@ -6,4 +6,5 @@ cnt = 0
 for arr in m_arr:
     if arr in n_arr:
         cnt += 1
+        
 print(cnt)
